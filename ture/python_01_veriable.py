@@ -111,3 +111,53 @@ print(num)  # 출력 10 즉 원래 값이 있어도 새로운 값이 들어오�
 
 # 대입연산자(=) : 우측의 값을 좌축에 저장
 # 동등연산자(==) : Equal
+#Naming Method
+# - 변수, 함수, 클래스 드으이 사용자 정의 이름에 사용하는 기법
+# - 프로그래밍 언어별로 사용하는 Naming Method가 다름!
+
+# 1.snake_case : 소문자만 사용, 합성어는 (_)사용
+#   ex) student_name
+# 2.camelCase : 첫글자 소문자, 합성어 첫글자 대문자
+#   ex) studentName
+# 3.PascalCase : 첫글자 대문자, 합성어 첫글자 대문자
+#    ex) StudentName
+#                  변수             함수                클래스
+#Java, C         camelCase        camelCase()         PascalCase
+#Python          snake_case       snake_case()        PascalCase
+# 개발자 : Web(프론트엔드, 백엔드), 앱(Android, Apple), 웹 퍼블리셔
+# 웹 디자이너
+# 서버 엔지니어(리눅스 운영관리)+ 클라우드 개발자
+#네트워크 엔지니어
+# 데이터 베이스 엔지니어 , 데이터 베이스 관리자
+# SQL 튜너
+# 데이터 모델러
+# ERP 개발자
+# 보안 개발자
+# 인공지능, 데이터분석가, 데이터 사이언티스트, 프롬프트 엔지니어
+# 데이터 엔지니어
+
+#동적출력!
+print("_"*50)
+student_num = 202013018
+student_name = "name"
+# 출력 예 : "조선대학교 202013018, name 입니다."
+print("조선대학교 202013018, name 입니다.") # 하드코딩 지양!
+
+#1 format()함수 (old)
+print("조선대학교 {}, {} 입니다.".format( student_num, student_name))
+
+#2 f-stirng (new)
+#print(f"조선대학교 {student_num}", {student_name}입니다.")
+
+#간단한 사칙연산
+# + : 더하기
+# - : 빼기
+# * : 곱하기
+# 5/2 : 나누기 2.5
+# 5//2 : 몫 2
+# 5%2 : 나머지 1
+# ** : 제곱
+
+num = 9
+num - 1
+#print(num) -> 9나옴 num -1 하고함수가 없기 때문에 그대로 9가 저장되어 나옴
